@@ -1,0 +1,75 @@
+﻿html {
+    background-color: black !important;
+    color: white !important;
+}
+
+* {
+    background-color: inherit !important;
+    color: inherit !important;
+    font-family: 'Segoe UI Light' !important;
+}
+
+* {
+    border-top-color: inherit !important;
+    border-bottom-color: inherit !important;
+    border-left-color: inherit !important;
+    border-right-color: inherit !important;
+}
+
+#chat-area a {
+    color: #569CD6 !important;
+}
+
+li.message {
+    border-left-width: 175px !important;
+}
+
+#chat-area {
+    background-color: #111 !important;
+    border: #111 !important;
+}
+
+.highlight {
+    background-color: #333 !important;
+}
+
+li.message.highlight {
+    border-left-width: 175px !important;
+    border-left-color: #333 !important;
+}
+
+.name {
+    font-size: 0.5rem !important;
+}
+
+* {
+    scrollbar-base-color: #222;
+    scrollbar-track-color: black;
+}
+
+form, textarea, input, button, .btn {
+    background-color: #111 !important;
+    border: 0 !important;
+}
+
+.first:before {
+    opacity: 0;
+    !important;
+}
+
+#tabs, #tabs li, .navbar, .navbar * {
+    border: 0px solid black !important;
+}
+
+.user-status {
+    background-color: #77d42a !important;
+}
+
+.inactive .user-status {
+    background-color: #fa2 !important;
+}
+
+#tabs .current {
+    background-color: #111 !important;
+    height: auto !important;
+}
