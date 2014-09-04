@@ -1,4 +1,4 @@
-![build status](http://img.shields.io/appveyor/ci/davepermen/jabbr.svg?style=flat)
+![build status](http://img.shields.io/appveyor/ci/davepermen/jabbr.svg?style=flat-square)
 JabbR
 =====
 
