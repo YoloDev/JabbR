@@ -8,4 +8,4 @@ installable as clickonce app from http://jabbrapp.azurewebsites.net/Jabbr.applic
 
 Screenshot of it running on my Surface Pro 2
 
-http://i.imgur.com/u0XdSre.png
+![](http://i.imgur.com/u0XdSre.png)
