@@ -1,3 +1,4 @@
+![build status](http://img.shields.io/appveyor/ci/davepermen/jabbr.svg?style=flat)
 JabbR
 =====
 
@@ -8,8 +9,8 @@ installable as clickonce app from http://jabbrapp.azurewebsites.net/Jabbr.applic
 
 Screenshot of it running on my Surface Pro 2
 
-![](http://i.imgur.com/u0XdSre.png)
+![screenshot](http://i.imgur.com/u0XdSre.png)
 
 And in Action
 
-![](http://i.imgur.com/FYPybFP.jpg)
+![using it on a surface pro 2](http://i.imgur.com/FYPybFP.jpg)
