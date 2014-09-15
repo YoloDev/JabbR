@@ -2,6 +2,7 @@
 using System;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Navigation;
@@ -29,9 +30,14 @@ namespace Jabbr
 
             NavigationCommands.GoToPage.Execute("http://jabbr.net", webBrowser);
 
+            var dpiProperty = typeof(SystemParameters).GetProperty("Dpi", BindingFlags.NonPublic | BindingFlags.Static);
+            var dpi = (int)dpiProperty.GetValue(null, null);
+            var dpiScaleFactor = ((float)dpi) / 96f;
+
+
             webBrowser.InnerBrowser.Navigated += InnerBrowser_Navigated;
 
-            webBrowser.Zoom = 250;
+            webBrowser.Zoom = (int)Math.Round(dpiScaleFactor * 150);
         }
 
         void InnerBrowser_Navigated(object sender, NavigationEventArgs e)
