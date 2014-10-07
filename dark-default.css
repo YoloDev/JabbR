@@ -1,12 +1,14 @@
 ﻿html {
     background-color: black !important;
     color: white !important;
+    font-size: small !important;
 }
 
 * {
     background-color: inherit !important;
     color: inherit !important;
     font-family: 'Segoe UI Light' !important;
+    font-size: inherit !important;
 }
 
 * {
@@ -22,6 +24,20 @@
 
 li.message {
     border-left-width: 175px !important;
+    line-height: 1.3em !important;
+}
+li.message .user-status-container, li.message .gravatar {
+    margin-top: 0.3em !important;
+}
+
+@media screen and (max-width: 900px) {
+    
+    li.message {
+        border-left-width: 50px !important;
+    }
+    .time {
+        visibility:hidden !important;
+    }
 }
 
 #chat-area {
@@ -38,8 +54,12 @@ li.message.highlight {
     border-left-color: #333 !important;
 }
 
-.name {
-    font-size: 1rem !important;
+.btn-small, .time, .nav-header, .roomTopic {
+    font-size: smaller !important;
+    opacity: 0.6 !important;
+}
+.banner {
+    font-size: large !important;
 }
 
 * {
@@ -53,8 +73,7 @@ form, textarea, input, button, .btn {
 }
 
 .first:before {
-    opacity: 0;
-    !important;
+    opacity: 0 !important;
 }
 
 #tabs, #tabs li, .navbar, .navbar * {
